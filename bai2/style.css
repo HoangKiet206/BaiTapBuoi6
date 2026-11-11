@@ -1,0 +1,31 @@
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    width: 120px;
+    height: 45px;
+    flex-shrink: 0;
+    background-color: #356ee7;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.btn-move:hover {
+    transform: translateY(-8px);
+}
+
+.btn-scale:hover {
+    transform: scale(1.2);
+}
+
+.btn-rotate:hover {
+    transform: rotate(10deg);
+}
+
+.btn-skew:hover {
+    transform: skewX(15deg);
+}
